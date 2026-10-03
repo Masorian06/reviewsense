@@ -1,0 +1,7 @@
+# ReviewSense (CMPT-2500 Unit 5): data and model versioning with DVC, tracking with MLflow
+dvc[s3]>=3.60
+scikit-learn>=1.6
+pandas>=2.2
+pyyaml>=6.0
+mlflow>=3.4
+huggingface_hub>=0.30

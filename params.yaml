@@ -1,0 +1,9 @@
+prepare:
+  split: 0.2
+  seed: 20260101
+featurize:
+  max_features: 5000
+  ngrams: 1
+train:
+  C: 1.0
+  seed: 20260101
