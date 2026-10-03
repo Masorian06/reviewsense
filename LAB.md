@@ -340,7 +340,9 @@ Open http://127.0.0.1:5000, experiment `reviewsense`, and add the columns `git_c
 | m2-c01 | 6bbc13 (v2) | 1 | 5000 | 0.1 | 0.8814 | C = 0.1: −0.037 |
 | m2-bigrams | 6bbc13 (v2) | 2 | 10000 | 1.0 | 0.9251 | candidate |
 
-Take the screenshot now. Then register models and move aliases:
+Take the screenshot now (yours will look like `docs/img/mlflow-run-table.png`; the
+registry page after the next block is `docs/img/mlflow-registry.png`). Then register
+models and move aliases:
 
 ```bash
 python src/register_model.py --run-id <run id of m1-base>                      # version 1
